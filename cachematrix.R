@@ -23,10 +23,10 @@ makeCacheMatrix <- function(x = matrix()) {
          getinv = getinv)
 }
 
-
 ## return inverse of a matrix 
 
 cacheSolve <- function(x, ...) {
+    
     ## Return a matrix that is the inverse of 'x'
     m <- x$getinv()
     
